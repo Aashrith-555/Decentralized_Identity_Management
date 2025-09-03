@@ -1,0 +1,29 @@
+{
+  "name": "decentralized-identity",
+  "version": "1.0.0",
+  "description": "A small decentralized identity management demo",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "decentralized-identity",
+    "DID",
+    "blockchain",
+    "identity"
+  ],
+  "author": "aashrith",
+  "license": "MIT",
+  "dependencies": {
+    "@stablelib/ed25519": "^2.0.2",
+    "body-parser": "^2.2.0",
+    "did-jwt": "^8.0.18",
+    "did-resolver": "^4.1.0",
+    "dids": "^4.0.4",
+    "express": "^5.1.0",
+    "key-did-provider-ed25519": "^3.0.2",
+    "key-did-resolver": "^4.0.0",
+    "uint8arrays": "^4.0.10"
+  }
+}
